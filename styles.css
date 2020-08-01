@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 100px;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.a {
+background-image: url("./images/tom1.png");
+}
+
+.s {
+background-image: url("./images/tom2.png");
+}
+
+.d {
+background-image: url("./images/tom4.png");
+}
+
+.f {
+background-image: url("./images/tom4.png");
+}
+
+.j {
+background-image: url("./images/snare.png");
+}
+
+.k {
+background-image: url("./images/crash.png");
+}
+
+.l {
+background-image: url("./images/kick.png");
+}
+
+.set {
+  margin: 1% auto;
+  padding: 25px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 50px;
+  font-family: 'Arvo', cursive;
+  line-height: 7;
+  font-weight: 900;
+  color: #8f1515;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 12px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 9px;
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.social-media{
+  margin-top: 2px;
+  color: black;
+  }
+.social-media i{
+  font-size: 25px;
+  color: #000;
+  align-self: start;
+  transition: color 500ms;
+}
+
+.fa-envelope:hover{
+  color: #e8eb35;
+  }
+.fa-twitter-square:hover{
+  color: #38a1f3;
+  }
+.fa-linkedin:hover{
+  color: #4267b2;
+  }
+.fa-instagram:hover{
+  color: #ce35ce;
+  }
+  .footer{
+    width: 99%;
+    color: black;
+    text-align: center;
+    background-color: #DBEDF3;
+    position: absolute;
+  }
