@@ -67,12 +67,12 @@ footer {
 
 .drum {
 	outline: none;
-	border: 10px solid #404b69;
+	border: 10px solid #2e5175;
 	font-size: 50px;
 	font-family: "Arvo", cursive;
 	line-height: 7;
 	font-weight: 900;
-	color: #8f1515;
+	color: #2e5175;
 	text-shadow: 3px 0 #dbedf3;
 	border-radius: 12px;
 	display: inline-block;
@@ -96,16 +96,16 @@ footer {
 }
 
 .fa-envelope:hover {
-	color: #e8eb35;
+	color: #ffffff;
 }
 .fa-twitter-square:hover {
-	color: #38a1f3;
+	color: #ffffff;
 }
 .fa-linkedin:hover {
-	color: #4267b2;
+	color: #ffffff;
 }
 .fa-instagram:hover {
-	color: #ce35ce;
+	color: #ffffff;
 }
 .footer {
 	width: 100%;
