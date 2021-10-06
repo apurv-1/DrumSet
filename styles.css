@@ -1,121 +1,181 @@
 * {
-	margin-left: 0;
+  margin-left: 0;
 }
 body {
-	text-align: center;
-	background-color: #003152;
+  text-align: center;
+  background-color: #030303;
 }
 
 h1 {
-	font-size: 100px;
-	color: #dbedf3;
-	font-family: "Arvo", cursive;
-	text-shadow: 3px 0 #da0463;
+  font-size: 100px;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
 }
 
 footer {
-	color: #dbedf3;
-	font-family: sans-serif;
+  color: #dbedf3;
+
+  font-family: sans-serif;
 }
 
 .a {
-	background-image: url("./images/tom1.png");
+  background-image: url("./images/tom1.png");
+  margin-top: 20px;
 }
 
 .s {
-	background-image: url("./images/tom2.png");
+  background-image: url("./images/tom2.png");
+  margin-top: 20px;
 }
 
 .d {
-	background-image: url("./images/tom4.png");
+  background-image: url("./images/tom4.png");
+  margin-top: 20px;
 }
 
 .f {
-	background-image: url("./images/tom4.png");
+  background-image: url("./images/tom4.png");
+  margin-top: 20px;
 }
 
 .j {
-	background-image: url("./images/snare.png");
+  background-image: url("./images/snare.png");
+  margin-top: 20px;
 }
 
 .k {
-	background-image: url("./images/crash.png");
+  background-image: url("./images/crash.png");
+  margin-top: 20px;
 }
 
 .l {
-	background-image: url("./images/kick.png");
+  background-image: url("./images/kick.png");
+  margin-top: 20px;
 }
 
 .set {
-	margin: 1% auto;
-	padding: 25px;
+  margin: 0 auto;
+  width: 85%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .game-over {
-	background-color: red;
-	opacity: 0.8;
+  background-color: red;
+  opacity: 0.8;
 }
 
 .pressed {
-	box-shadow: 0 3px 4px 0 #dbedf3;
-	opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 
 .drum {
-	outline: none;
-	border: 10px solid #2e5175;
-	font-size: 50px;
-	font-family: "Arvo", cursive;
-	line-height: 7;
-	font-weight: 900;
-	color: #2e5175;
-	text-shadow: 3px 0 #dbedf3;
-	border-radius: 12px;
-	display: inline-block;
-	width: 150px;
-	height: 150px;
-	text-align: center;
-	margin: 9px;
-	background-color: white;
-	padding-bottom: 15px;
+  outline: none;
+  padding: 10px;
+  border: 5px solid crimson;
+  font-size: 50px;
+  font-family: "Arvo", cursive;
+  line-height: 7;
+  font-weight: 900;
+  color: white;
+  text-shadow: 3px 0 crimson;
+  border-radius: 100px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 9px;
+  background-color: white;
+  padding-bottom: 15px;
+  /* margin-top: 100px; */
+}
+
+@media screen and (max-width: 992px) {
+  .drum {
+    margin-top: 100px;
+  }
+  .set {
+    margin-top: 100px;
+  }
 }
 
 .social-media {
-	margin-top: 2px;
-	color: black;
+  margin-top: 2px;
+  color: white;
 }
 .social-media i {
-	font-size: 25px;
-	color: #000;
-	align-self: center;
-	transition: color 500ms;
+  font-size: 25px;
+  color: white;
+  align-self: center;
+  transition: color 500ms;
 }
 
 .fa-envelope:hover {
-	color: #ffffff;
+  color: crimson;
 }
 .fa-twitter-square:hover {
-	color: #ffffff;
+  color: crimson;
 }
 .fa-linkedin:hover {
-	color: #ffffff;
+  color: crimson;
 }
 .fa-instagram:hover {
-	color: #ffffff;
+  color: crimson;
+}
+
+.fa-envelope {
+  margin-top: 7px;
+  color: #ffffff;
+}
+.fa-twitter-square {
+  margin-top: 7px;
+  color: #ffffff;
+}
+.fa-linkedin {
+  margin-top: 7px;
+  color: #ffffff;
+}
+.fa-instagram {
+  margin-top: 7px;
+  color: #ffffff;
 }
 .footer {
-	width: 100%;
-	color: black;
-	align-items: center;
-	background-color: #2e5175;
-	bottom: 0;
-	position: fixed;
+  width: 100%;
+  color: white;
+  align-items: center;
+  background-color: #111010;
+  bottom: 0;
+  position: fixed;
 }
 .ul {
-	align-self: center;
-	padding-left: 0;
+  align-self: center;
+  display: flex;
+  margin-top: 40px;
+  padding-left: 0;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.icon-div {
+  text-align: center;
+  align-items: center;
+  background-color: crimson;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.icon-div:hover {
+  background-color: #030303;
+  transition: 0.4s ease;
 }
